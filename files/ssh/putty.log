@@ -1,0 +1,175 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.02.18 18:47:29 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "madolu2".
+Authenticating with public key "rsa-key-20200218" from agent
+Welcome to Ubuntu 18.04.3 LTS (GNU/Linux 5.0.0-23-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+ * Multipass 1.0 is out! Get Ubuntu VMs on demand on your Linux, Windows or
+   Mac. Supports cloud-init for fast, local, cloud devops simulation.
+
+     https://multipass.run/
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+252 packages can be updated.
+147 updates are security updates.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2023.
+Last login: Tue Feb 18 18:43:41 2020 from 192.168.1.69
+]0;madolu2@madolu2-VirtualBox: ~madolu2@madolu2-VirtualBox:~$ св [K[K[Kcd .ssh/
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ ls
+authorized_keys  config  id_rsa  id_rsa.pub  known_hosts
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ cat authorized_keys 
+ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAkMOSsEisPzSBmqTAYuQLiw2+Na0zid5oAudiy6QqYFGPVHCBGGdrA+ZM057YpmmnsG0P9ldHR4dzlDK+f0YkjYwnmJg9pszBiSSc+8Zz1bUrMaxXvhk0zq1HmBQlQmnOkc4amr/iExzhC5B72HIUOScnXS6zPslf2JkSofHpJUXUz8UU57fHNhpdlJVpsZX19eE2DU1/jZTuvgX+B1acU7C3PVkob/Klbd4WkP2OD3s73uLQzKjioJHXgM5DNY/9GxBppXQQHEzlBaWGvC5KlCc/8iKH1X0UOG7ICIp5nrT475MHdGsmmbyLsi0cgfHGP542Xh4C24dyn6UJqVkVqw== rsa-key-20200218
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ cat authorized_keys 
+ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAkMOSsEisPzSBmqTAYuQLiw2+Na0zid5oAudiy6QqYFGPVHCBGGdrA+ZM057YpmmnsG0P9ldHR4dzlDK+f0YkjYwnmJg9pszBiSSc+8Zz1bUrMaxXvhk0zq1HmBQlQmnOkc4amr/iExzhC5B72HIUOScnXS6zPslf2JkSofHpJUXUz8UU57fHNhpdlJVpsZX19eE2DU1/jZTuvgX+B1acU7C3PVkob/Klbd4WkP2OD3s73uLQzKjioJHXgM5DNY/9GxBppXQQHEzlBaWGvC5KlCc/8iKH1X0UOG7ICIp5nrT475MHdGsmmbyLsi0cgfHGP542Xh4C24dyn6UJqVkVqw== rsa-key-20200218
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ sudo nano -Y sh /etc/ssh/sshd_config
+[sudo] password for madolu2: 
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;32H(B[0;7m[ Read 122 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                 /etc/ssh/sshd_config                           [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[22d[3d[39;49m[36m#       $OpenBSD: sshd_config,v 1.101 2017/03/14 07:19:07 djm Exp $[5d# This is the sshd server system-wide configuration file.  See[6d# sshd_config(5) for more information.[8d# This sshd was compiled with PATH=/usr/bin:/bin:/usr/sbin:/sbin[10d# The strategy used for options in the default sshd_config shipped with[11d# OpenSSH is to specify options with their default value where[12d# possible, but leave them commented.  Uncommented options override the[13d# default value.[15d#Port 22[16d#AddressFamily any[17d#ListenAddress 0.0.0.0[18d#ListenAddress ::[20d#HostKey /etc/ssh/ssh_host_rsa_key[21d#HostKey /etc/ssh/ssh_host_ecdsa_key[3d[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;21r8[10S[1;24r[12;1H[36m#HostKey /etc/ssh/ssh_host_ed25519_key[14d# Ciphers and keying[15d#RekeyLimit default none[17d# Logging[18d#SyslogFacility AUTH[19d#LogLevel INFO[21d# Authentication:[12d[39m(B[m[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[22d[K[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;22r8[22d[10S[1;24r[2;1H[K[13d[36m#LoginGraceTime 2m[14d#PermitRootLogin prohibit-password[15d#StrictModes yes[16d#MaxAuthTries 6[17d#MaxSessions 10[19d#PubkeyAuthentication yes[21d# Expect .ssh/authorized_keys2 to be disregarded by default in future.[12d[39m(B[m[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;22r8[22d[10S[1;24r[12;1H[36m#AuthorizedKeysFile     .ssh/authorized_keys[14d#AuthorizedPrincipalsFile none[16d#AuthorizedKeysCommand none[17d#AuthorizedKeysCommandUser nobody[19d# For this to work you will also need host keys in /etc/ssh/ssh_known_hosts[20d#HostbasedAuthentication no[21d# Change to yes if you don't trust ~/.ssh/known_hosts for[12d[39m(B[m[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1H[36m# HostbasedAuthentication[13d#IgnoreUserKnownHosts no[14d# Don(B[0;1m[33m't read the user'(B[0m[36ms ~/.rhosts and ~/.shosts files[15d#IgnoreRhosts yes[17d# To disable tunneled clear text passwords, change to no here![18d#PasswordAuthentication no[39m[42m [19d[49m[36m#PermitEmptyPasswords no[21d# Change to yes to enable challenge-response passwords (beware issues with[12d[39m(B[m[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1H[36m# some PAM modules and threads)[13d[39m(B[mChallengeResponseAuthentication no[15d[36m# Kerberos options[16d#KerberosAuthentication no[17d#KerberosOrLocalPasswd yes[18d#KerberosTicketCleanup yes[19d#KerberosGetAFSToken no[21d# GSSAPI options[12d[39m(B[m[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1H[36m#GSSAPIAuthentication no[13d#GSSAPICleanupCredentials yes[14d#GSSAPIStrictAcceptorCheck yes[15d#GSSAPIKeyExchange no[17d# Set this to (B[0;1m[33m'yes'(B[0m[36m to enable PAM authentication, account processing,[18d# and session processing. If this is enabled, PAM authentication will[19d# be allowed through the ChallengeResponseAuthentication and[20d# PasswordAuthentication.  Depending on your PAM configuration,[21d# PAM authentication via ChallengeResponseAuthentication may bypass[12d[39m(B[m[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1H[36m# the setting of (B[0;1m[33m"PermitRootLogin without-password"(B[0m[36m.[13d# If you just want the PAM account and session checks to run without[14d# PAM authentication, then enable this but set PasswordAuthentication[15d# and ChallengeResponseAuthentication to (B[0;1m[33m'no'(B[0m[36m.[16d[39m(B[mUsePAM yes[18d[36m#AllowAgentForwarding yes[19d#AllowTcpForwarding yes[20d#GatewayPorts no[21d[39m(B[mX11Forwarding yes[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1H[36m#X11DisplayOffset 10[13d#X11UseLocalhost yes[14d#PermitTTY yes[15d[39m(B[mPrintMotd no[16d[36m#PrintLastLog yes[17d#TCPKeepAlive yes[18d#UseLogin no[19d#PermitUserEnvironment no[20d#Compression delayed[21d#ClientAliveInterval 0[12d[39m(B[m[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[3;22r8[22d[10S[1;24r[12;1H[36m#ClientAliveCountMax 3[13d#UseDNS no[14d#PidFile /var/run/sshd.pid[15d#MaxStartups 10:30:100[16d#PermitTunnel no[17d#ChrootDirectory none[18d#VersionAddendum none[20d# no default banner path[21d#Banner none[12d[39m(B[m[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;22r8[22d[10S[1;24r[2;1H[K[13d[36m# Allow client to pass locale environment variables[14d[39m(B[mAcceptEnv LANG LC_*[16d[36m# override default of no subsystems[17d[39m(B[mSubsystem[17Gsftp    /usr/lib/openssh/sftp-server[19d[36m# Example of overriding settings on a per-user basis[20d#Match User anoncvs[21d#       X11Forwarding no[12d[39m(B[m[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;22r8[22d[10S[1;24r[12;1H[36m#       AllowTcpForwarding no[13d#       PermitTTY no[14d#       ForceCommand cvs server[12d[39m(B[m[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[15d[36m# GSSAPI options[16d[39m(B[mGSSAPIAuthentication yes[17dGSSAPICleanupCredentials yes[19d[36m# User groups access contol[20d[39m(B[mAllowGroups adm kom-srv-linux-administrators[?12l[?25h[?25l[23;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[22d(B[0;7mFile Name to Write: /etc/ssh/sshd_config                                        [22;1H(B[m[22;41H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;31H(B[0;7m[ Wrote 128 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Linter (B[0;7m^_(B[m Go To Line[22d[20;45H[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ cat /etc/ssh/sshd_config
+#	$OpenBSD: sshd_config,v 1.101 2017/03/14 07:19:07 djm Exp $
+
+# This is the sshd server system-wide configuration file.  See
+# sshd_config(5) for more information.
+
+# This sshd was compiled with PATH=/usr/bin:/bin:/usr/sbin:/sbin
+
+# The strategy used for options in the default sshd_config shipped with
+# OpenSSH is to specify options with their default value where
+# possible, but leave them commented.  Uncommented options override the
+# default value.
+
+#Port 22
+#AddressFamily any
+#ListenAddress 0.0.0.0
+#ListenAddress ::
+
+#HostKey /etc/ssh/ssh_host_rsa_key
+#HostKey /etc/ssh/ssh_host_ecdsa_key
+#HostKey /etc/ssh/ssh_host_ed25519_key
+
+# Ciphers and keying
+#RekeyLimit default none
+
+# Logging
+#SyslogFacility AUTH
+#LogLevel INFO
+
+# Authentication:
+
+#LoginGraceTime 2m
+#PermitRootLogin prohibit-password
+#StrictModes yes
+#MaxAuthTries 6
+#MaxSessions 10
+
+#PubkeyAuthentication yes
+
+# Expect .ssh/authorized_keys2 to be disregarded by default in future.
+#AuthorizedKeysFile	.ssh/authorized_keys
+
+#AuthorizedPrincipalsFile none
+
+#AuthorizedKeysCommand none
+#AuthorizedKeysCommandUser nobody
+
+# For this to work you will also need host keys in /etc/ssh/ssh_known_hosts
+#HostbasedAuthentication no
+# Change to yes if you don't trust ~/.ssh/known_hosts for
+# HostbasedAuthentication
+#IgnoreUserKnownHosts no
+# Don't read the user's ~/.rhosts and ~/.shosts files
+#IgnoreRhosts yes
+
+# To disable tunneled clear text passwords, change to no here!
+#PasswordAuthentication no 
+#PermitEmptyPasswords no
+
+# Change to yes to enable challenge-response passwords (beware issues with
+# some PAM modules and threads)
+ChallengeResponseAuthentication no
+
+# Kerberos options
+#KerberosAuthentication no
+#KerberosOrLocalPasswd yes
+#KerberosTicketCleanup yes
+#KerberosGetAFSToken no
+
+# GSSAPI options
+#GSSAPIAuthentication no
+#GSSAPICleanupCredentials yes
+#GSSAPIStrictAcceptorCheck yes
+#GSSAPIKeyExchange no
+
+# Set this to 'yes' to enable PAM authentication, account processing,
+# and session processing. If this is enabled, PAM authentication will
+# be allowed through the ChallengeResponseAuthentication and
+# PasswordAuthentication.  Depending on your PAM configuration,
+# PAM authentication via ChallengeResponseAuthentication may bypass
+# the setting of "PermitRootLogin without-password".
+# If you just want the PAM account and session checks to run without
+# PAM authentication, then enable this but set PasswordAuthentication
+# and ChallengeResponseAuthentication to 'no'.
+UsePAM yes
+
+#AllowAgentForwarding yes
+#AllowTcpForwarding yes
+#GatewayPorts no
+X11Forwarding yes
+#X11DisplayOffset 10
+#X11UseLocalhost yes
+#PermitTTY yes
+PrintMotd no
+#PrintLastLog yes
+#TCPKeepAlive yes
+#UseLogin no
+#PermitUserEnvironment no
+#Compression delayed
+#ClientAliveInterval 0
+#ClientAliveCountMax 3
+#UseDNS no
+#PidFile /var/run/sshd.pid
+#MaxStartups 10:30:100
+#PermitTunnel no
+#ChrootDirectory none
+#VersionAddendum none
+
+# no default banner path
+#Banner none
+
+# Allow client to pass locale environment variables
+AcceptEnv LANG LC_*
+
+# override default of no subsystems
+Subsystem	sftp	/usr/lib/openssh/sftp-server
+
+# Example of overriding settings on a per-user basis
+#Match User anoncvs
+#	X11Forwarding no
+#	AllowTcpForwarding no
+#	PermitTTY no
+#	ForceCommand cvs server
+# GSSAPI options
+GSSAPIAuthentication yes
+GSSAPICleanupCredentials yes
+
+# User groups access contol
+AllowGroups adm kom-srv-linux-administrators
+]0;madolu2@madolu2-VirtualBox: ~/.sshmadolu2@madolu2-VirtualBox:~/.ssh$ 
