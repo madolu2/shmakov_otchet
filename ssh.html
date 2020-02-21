@@ -19,34 +19,34 @@
             </li>
             <li class="list-group-item">2. В качестве SSH клиента был выбран PuTTY. 
                 Имя хоста - ip адресс виртуальной машины, ключи сгенерированны в PuTTYgen, 
-                приватный ключ добавлен в Pageant. <br>
-                <img src="img\ssh\1.jpg" class="img-fluid mt-3" alt="1st_screen">
-                <img src="img\ssh\2.jpg" class="img-fluid" alt="2nd_screen">
+                приватный ключ добавлен в Pageant. Публичный ключ добавлен в <b>.ssh/authorized_keys</b> <br>
+                <img src="img\ssh\1.jpg" class="img-fluid rounded mx-auto d-block mt-3" alt="1st_screen">
+                <img src="img\ssh\2.jpg" class="img-fluid rounded mx-auto d-block" alt="2nd_screen">
             </li>
             <li class="list-group-item">3. <a href="files\ssh\putty.log">Лог сеанса</a></li>
             <li class="list-group-item">4. У меня нет необходимости в прокси, но если бы хотел настроить, 
                 то настроил бы в этой вкладке PuTTY<br>
-                <img src="img\ssh\proxy.jpg" class="rounded mx-auto d-block mt-3" alt="proxy">
+                <img src="img\ssh\proxy.jpg" class="img-fluid rounded mx-auto d-block mt-3" alt="proxy">
             </li>
             <li class="list-group-item">5. Настройки клиента не записывал, файл <b>/etc/ssh/ssh_config</b> не изменял, 
                 PuTTY и сам нормально справился <br>
             </li>
-            <li class="list-group-item">6.</li>
-            <li class="list-group-item">7.</li>
-            <li class="list-group-item">8.</li>
-            <li class="list-group-item">9.</li>
-            <li class="list-group-item">10.</li>
+            <li class="list-group-item"><p class="text-uppercase">6. some proofs </p>
+                <p>Авторизация по SSH в учетную запись</p>
+                <img src="img\ssh\authorization.jpg" class="img-fluid rounded mx-auto d-block mt-3" alt="authorization">
+                <p class="mt-3">Данные <b>ifconfig</b></p>
+                <img src="img\ssh\ifconfig.jpg" class="img-fluid rounded mx-auto d-block mt-3" alt="ifconfig">
+            </li>
+            <li class="list-group-item mb-5">7. Остальное я либо сделал и забыл записать/заскринить, либо не смог/поленился сделать</li>
+            
         </ul>
         
       </div>
+      <a href="index.html" class="col-2 mt-2 text-uppercase btn btn-sm btn-dark" style="position: fixed; right: 1%; bottom: 5%;">На главную</a>
     </body>
 <footer class="bg-dark text-white-50 col" style="position: fixed; left: 0; bottom: 0;">
-    <div class="row">
-        <div class="col"></div>
-        <a href="index.html" class="col-3 mt-2 center text-uppercase btn btn-dark">На главную</a>
-        <div class="col"></div>
-    </div>
-    <div class="footer-copyright text-center py-2">© 2020 Copyright:
+ 
+    <div class="footer-copyright text-center py-1">© 2020 Copyright:
         <a href="https://github.com/madolu2" class="fa f5 black">Вещин О.О.</a>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
