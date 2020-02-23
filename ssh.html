@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
-  <body>
+  <body style="background-color: #DCDCDC;">
     
-      <div class="container pl-5 pr-5">
+      <div id="ssh" class="container pl-5 pr-5">
         <div class="h1 text-center">SSH</div>
         <ul class="list-group">
-            <li class="list-group-item">1. Найти и подключиться к бесплатной системе оказалось трудно,
+            <li class="list-group-item mt-1">1. Найти и подключиться к бесплатной системе оказалось трудно,
                  поскольку подобные сервера либо уже не работают, 
                  либо перестали быть бесплатными. 
                  Пришлось работать  с виртуальной машиной.<br>
                  <img src="img/ssh/vbox.jpg" class="img-fluid mt-3" alt="vbox">
             </li>
-            <li class="list-group-item">2. В качестве SSH клиента был выбран PuTTY. 
+            <li class="list-group-item mt-1">2. В качестве SSH клиента был выбран PuTTY. 
                 Имя хоста - ip адресс виртуальной машины, ключи сгенерированны в PuTTYgen, 
                 приватный ключ добавлен в Pageant. Публичный ключ добавлен в <b>.ssh/authorized_keys</b>.<br>
                 <img src="img/ssh/1.jpg" class="img-fluid rounded mx-auto d-block mt-3" alt="1st_screen">
                 <img src="img/ssh/2.jpg" class="img-fluid rounded mx-auto d-block" alt="2nd_screen">
             </li>
-            <li class="list-group-item ">3. 
+            <li class="list-group-item  mt-1">3. 
                 <a href="files/ssh/putty.log">Лог сеанса</a><br>
 
                 <div class="dropdown">
@@ -35,27 +35,51 @@
                       </div>
                   </div>
             </li>
-            <li class="list-group-item">4. У меня нет необходимости в прокси, но если бы хотел настроить, 
+            <li class="list-group-item mt-1">4. У меня нет необходимости в прокси, но если бы хотел настроить, 
                 то настроил бы в этой вкладке PuTTY.<br>
                 <img src="img/ssh/proxy.jpg" class="img-fluid rounded mx-auto d-block mt-3" alt="proxy">
             </li>
-            <li class="list-group-item">5. Настройки клиента не записывал, файл <b>/etc/ssh/ssh_config</b> не изменял, 
+            <li class="list-group-item mt-1">5. Настройки клиента не записывал, файл <b>/etc/ssh/ssh_config</b> не изменял, 
                 PuTTY и сам нормально справился.<br>
             </li>
-            <li class="list-group-item"><p class="text-uppercase">6. some proofs </p>
+            <li class="list-group-item mt-1"><p class="text-uppercase">6. some proofs </p>
                 <p>Авторизация по SSH в учетную запись.</p>
                 <img src="img/ssh/authorization.jpg" class="img-fluid rounded mx-auto d-block mt-3" alt="authorization">
                 <p class="mt-3">Данные <b>ifconfig</b>.</p>
                 <img src="img/ssh/ifconfig.jpg" class="img-fluid rounded mx-auto d-block mt-3" alt="ifconfig">
             </li>
-            <li class="list-group-item mb-5">7. Остальное я либо сделал и забыл записать/заскринить, либо не смог/поленился сделать.</li>
+            <li class="list-group-item mb-5 mt-1">7. Остальное я либо сделал и забыл записать/заскринить, либо не смог/поленился сделать.</li>
             
         </ul>
-        
+
+
+
+
+
+
+        <ul class="list-group mt-1">
+            <div id="ttd" class="h2 text-center">Туннелирование и передача произвольных данных</div>
+            <li class="list-group-item mt-1">1. </li>
+            <li class="list-group-item mt-1">2. </li>
+            <li class="list-group-item mt-1">3. </li>
+            <li class="list-group-item mt-1">4. </li>
+        </ul>
       </div>
-      <a href="index.html" class="col-2 mt-2 text-uppercase btn btn-sm btn-dark" style="position: fixed; right: 1%; bottom: 5%;">На главную</a>
+      <a href="#ssh" class="col-2 text-uppercase btn btn-sm btn-light" style="position: fixed; right: 1%; bottom: 12%;">SSH</a>
+      <a href="#ttd" class="col-2 text-uppercase btn btn-sm btn-light" style="position: fixed; right: 1%; bottom: 8.5%;">ТиППД</a>
+      <a href="index.html" class="col-2 text-uppercase btn btn-sm btn-dark" style="position: fixed; right: 1%; bottom: 5%;">На главную</a>
+
     </body>
     
+
+
+
+
+
+
+
+
+
 <footer class="bg-dark text-white-50 col" style="position: fixed; left: 0; bottom: 0;">
  
     <div class="footer-copyright text-center py-1">© 2020 Copyright:
